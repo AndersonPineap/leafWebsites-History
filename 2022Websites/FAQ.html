@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!-- 你查看源代码是想干什么小伙子？ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叶子科技 Q&A</title>
+    <link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <style>
+        #FAQ {
+            padding-top: 75px;
+        }
+
+        #FAQ>h1 {
+            letter-spacing: 5px;
+            font-size: 2.5em;
+            color: transparent;
+            background: linear-gradient(145deg, rgba(0.9, 198, 203, 1) 33%, rgba(48, 255, 205, 1) 66%, rgba(0.9, 198, 203, 1) 66%, rgba(48, 255, 205, 1));
+            background-size: 600%;
+            background-position: 100%;
+            -webkit-background-clip: text;
+            animation: text-light 3s;
+			animation-delay: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="img/blackLogo.png" alt="叶子科技工作室" width="52px" height="45px">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html#department">部门</a></li>
+            <li><a href="#">Q&A</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="FAQ">
+            <h1>Q&A</h1>
+            <p>
+                <span>社团具体是做什么的呢？</span>
+                <span>社团在3401开展活动，与一群志同道合的同学们在社团里好好学习计算机相关知识，或者学习绘画相关知识，寻找自己的朋友，为自己的长处找一个展示的舞台。并且会参与到学校方面的一些工作，解决一些问题和参与各种活动。</span>
+            </p>
+            <p>
+                <span>社团有团建的活动吗？</span>
+                <span>有，不定时举办，有各种类型的活动，欢迎新社员的积极参与。</span>
+            </p>
+            <p>
+                <span>加入社团的难度会很高吗？</span>
+                <span>不会，大家进来的起点都很相似，本社团筛选人不看你的基本水平，只看你的热情如何，只看你是否有上进的心。</span>
+            </p>
+			<p>
+                <span>社团会很占用时间吗？</span>
+                <span>不会，社团只需要每周抽出一个晚上来计算机教室进行学习即可。</span>
+            </p>
+			<p>
+    		    <span>需要具备一定计算机基础吗？相关知识有没有人教？</span>
+    		    <span>我们社团是面向0基础的呢~教学方面我们会带领入门，后期主要是根据自身来自学。</span>
+    		</p>
+    		<p>
+    		    <span>社团活动一定要来吗？活动时间一定要在吗？</span>
+    		    <span>不一定，社团活动有事可以请假，活动时间呆满一定时长即可离开（需要向副部以上的人员说明），无故缺席太多次将视为退社。</span>
+    		</p>
+			<p>
+				<span>如果入社之后发现所在的部门不太适合自己，想换一个部门，可以吗？</span>
+				<span>如果确实需要，经过两个部门的部长同意即可，但在入社的时候请认真选择部门。</span>
+			</p>
+			<p>
+				<span>招新大会的时间和地点？</span>
+				<span>9月5号下午大厅前。</span>
+			</p>
+			<p>没有需要的回答？<a href="https://jq.qq.com/?_wv=1027&k=cnd3eMy1" target="_blank" class="jump">进群向我们提问</a>。</p>
+        </section>
+    </main>
+    <div id="waveBox">
+        <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,255,150,0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,255,130,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,255,110,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0,255,100,1)" />
+            </g>
+        </svg>
+    </div>
+	<div id="back"
+        style="background: rgba(0,0,0,0.75);z-index:1000;display: none;width: 100%;height: 100vh;position: fixed;top: 0;left: 0;">
+    </div>
+</body>
+<script>
+    document.querySelector("nav").querySelector("img").onclick = () => {
+        window.open("index.html", "_self")
+    }
+</script>
+<script src="js/jump.js"></script>
+</html>

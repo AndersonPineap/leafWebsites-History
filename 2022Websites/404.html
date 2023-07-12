@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!-- 你查看源代码是想干什么小伙子？ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page Not Found</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <img src="img/blackLogo.png" alt="叶子科技工作室" width="52px" height="45px">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html#department">部门</a></li>
+            <li><a href="FAQ.html">Q&A</a></li>
+        </ul>
+    </nav>
+    <div style="height:100vh;display:flex;flex-direction: column;justify-content: center;align-items: center;">
+        <h1 style="letter-spacing: 10px;font-size:4em;">404</h1>
+        <p>Page Not Found.</p>
+    </div>
+    <div style="position: fixed;bottom: -10px;display:block;width:100%;overflow:hidden;">
+        <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,255,150,0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,255,130,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,255,110,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0,255,100,1)" />
+            </g>
+        </svg>
+    </div>
+</body>
+<script>
+    document.querySelector("nav").querySelector("img").onclick = () => {
+        window.open("index.html", "_self")
+    }
+</script>
+
+</html>
